@@ -1,6 +1,6 @@
 # MMBS (Towards Robust Visual Question Answering: Making the Most of Biased Samples via Contrastive Learning)
 
-Here is the implementation of our Findings of EMNLP-2022 [Towards Robust Visual Question Answering: Making the Most of Biased Samples via Contrastive Learning](https://openreview.net/forum?id=yoOxlNY0eI1). 
+Here is the implementation of our Findings of EMNLP-2022 [Towards Robust Visual Question Answering: Making the Most of Biased Samples via Contrastive Learning](http://arxiv.org/abs/2210.04563). 
 
 This repository contains code modified from [here for SAR+MMBS](https://github.com/PhoebusSi/SAR/) and [here for SAR+LMH](https://github.com/chrisc36/bottom-up-attention-vqa), many thanks!
 
