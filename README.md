@@ -21,3 +21,15 @@ Overview of our method. The question cate- gory words are highlighted in yellow.
 * h5py
 
 ## More code will be released soon.
+
+## Reference
+If you found this code is useful, please cite the following paper:
+```
+@article{Si2022TowardsRV,
+  title={Towards Robust Visual Question Answering: Making the Most of Biased Samples via Contrastive Learning},
+  author={Qingyi Si and Yuanxin Liu and Fandong Meng and Zheng Lin and Peng Fu and Yanan Cao and Weiping Wang and Jie Zhou},
+  journal={ArXiv},
+  year={2022},
+  volume={abs/2210.04563}
+}
+```
