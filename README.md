@@ -12,6 +12,19 @@ Qualitative comparison of our method LMH+MMBS against the plain method UpDn and 
 
 Overview of our method. The question cate- gory words are highlighted in yellow. The orange circle and blue triangle denote the cross-modality representa- tions of the original sample and positive sample. The other samples in the same batch are the negative sam- ples, which are denoted by the gray circles.
 
+## Download and preprocess the data
+
+The data preprocessing code can refer to that of https://github.com/CrossmodalGroup/SSL-VQA.
+
+```
+cd data 
+bash download.sh
+python preprocess_image.py --data trainval
+python create_dictionary.py --dataroot vqacp2/
+python preprocess_text.py --dataroot vqacp2/ --version v2
+cd ..
+```
+
 ## Requirements
 * python 3.7.6
 * pytorch 1.5.0
@@ -20,7 +33,7 @@ Overview of our method. The question cate- gory words are highlighted in yellow.
 * spacy
 * h5py
 
-## More code will be released soon.
+## The code of LXMERT-MMBS will be released soon.
 
 ## Reference
 If you found this code is useful, please cite the following paper:
